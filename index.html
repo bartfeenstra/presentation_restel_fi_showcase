@@ -51,6 +51,22 @@
 			.reveal a {
 				color: #ffb330;
 			}
+
+			/*Attributions*/
+			p.attribution {
+				bottom: 3%;
+				display: none;
+				font-size: 0.4em;
+				left: 3%;
+				padding: 1em;
+				position: absolute;
+				z-index: 999;
+			}
+			.attribution-active p.attribution {
+				background-color: rgba(23, 26, 32, 0.7);
+				border: 0;
+				display: block;
+			}
 		</style>
 
 		<!-- Printing and PDF exports -->
@@ -64,6 +80,7 @@
 	</head>
 	<body>
 		<div class="reveal">
+			<p class="attribution contrast"></p>
 			<div class="slides">
 				<section>
 					<h1>Restel.fi: built by humans, for humans</h1>
@@ -113,7 +130,8 @@
 						<h1>Bart Feenstra</h1>
 						<img src="./images/bart.jpg" width="50%">
 					</section>
-					<section>
+					<section data-background="./images/engineers.jpg" data-state="attribution-active engineers">
+						<style>.engineers .attribution:after { content: "© Iain Middleton-Duff @ Flickr (CC BY-ND 2.0)"; }</style>
 						<h1>Engineer</h1>
 						<ul>
 							<li>Knows some PHP, Python, Java, & Javascript, with a pinch of SQL</li>
