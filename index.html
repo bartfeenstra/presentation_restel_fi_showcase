@@ -1,282 +1,312 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Restel.fi: built by humans, for humans</title>
+    <title>Restel.fi: built by humans, for humans</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!--Custom fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&subset=latin-ext" rel="stylesheet">
+    <!--Custom fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&subset=latin-ext"
+          rel="stylesheet">
 
-		<!--Custom styling-->
-		<style>
-			body {
-				background-color: #171a20;
-			}
-			section {
-				background-color: rgba(23, 26, 32, 0.7);
-			}
-			.reveal h1,
-			.reveal h2,
-			.reveal h3,
-			.reveal h4,
-			.reveal h5,
-			.reveal h6,
-			.reveal p {
-				font-family: 'Lato', sans-serif;
-			}
-			.reveal h1,
-			.reveal h2,
-			.reveal h3,
-			.reveal h4,
-			.reveal h5,
-			.reveal h6 {
-				text-transform: none;
-			}
-			.reveal p,
-			.reveal ul {
-				border-top: 3px dotted #999999;
-				padding-top: 1em;
-			}
-			.reveal li {
-				list-style-type: circle;
-			}
-			.reveal a {
-				color: #ffb330;
-			}
+    <!--Custom styling-->
+    <style>
+        body {
+            background-color: #171a20;
+        }
 
-			/*Attributions*/
-			p.attribution {
-				bottom: 3%;
-				display: none;
-				font-size: 0.4em;
-				left: 3%;
-				padding: 1em;
-				position: absolute;
-				z-index: 999;
-			}
-			.attribution-active p.attribution {
-				background-color: rgba(23, 26, 32, 0.7);
-				border: 0;
-				display: block;
-			}
-		</style>
+        section {
+            background-color: rgba(23, 26, 32, 0.7);
+        }
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<p class="attribution contrast"></p>
-			<div class="slides">
-				<section>
-					<h1>Restel.fi: built by humans, for humans</h1>
-					<p>Bart Feenstra & Jonna Tiainen</p>
-				</section>
-				<!--Introductions-->
-					<!--Introduce Jonna (Jonna)-->
-				<section data-background="./images/houston.jpg">
-						<h1>Jonna Tiainen</h1>
-						<img src="./images/jonna.jpg" width="50%">
-				</section>
-				<section data-background="./images/houston.jpg">
-						<h1>Holistic Agile Coach</h1>
-				</section>
-				<section data-background="./images/houston.jpg">
-						<h1>Scrum Master</h1>
-				</section>
-				<section data-background="./images/houston.jpg">
-						<h1>Code Newbie</h1>
-						<ul>
-							<li>Java</li>
-							<li>JavaScript</li>
-						</ul>
-					</section>
-					<section data-background="./images/houston.jpg">
-							<h1>Houstonian</h1>
-					</section>
-					<section data-background="./images/houston.jpg">
-						<h1>Houston Inc</h1> <img src="./images/hlogo.jpg" width="10%" height="10%">
-						<h4>We offer:</h4>
-						<ul>
-							<li>System deliveries</li>
-							<li>System integration</li>
-							<li>Agile Training</li>
-						</ul>
-					</section>
-					<section data-background="./images/drupal.jpg" data-state="attribution-active drupal">
-						<style>.drupal .attribution:after { content: "© freephotocc (Lia Leslie) @ PixBay"; }</style>
-						<h1>Drupal & community</h1>
-						<ul>
-							<li>Drupal user a a year and a half</li>
-							<li>First time DrupalCon speaker</li>
-						</ul>
-					</section>
+        .reveal h1,
+        .reveal h2,
+        .reveal h3,
+        .reveal h4,
+        .reveal h5,
+        .reveal h6,
+        .reveal p {
+            font-family: 'Lato', sans-serif;
+        }
 
-					<!--Introduce Bart (Bart)-->
-					<section>
-						<h1>Bart Feenstra</h1>
-						<img src="./images/bart.jpg" width="50%">
-					</section>
-					<section data-background="./images/engineers.jpg" data-state="attribution-active engineers">
-						<style>.engineers .attribution:after { content: "© Iain Middleton-Duff @ Flickr (CC BY-ND 2.0)"; }</style>
-						<h1>Engineer</h1>
-						<ul>
-							<li>Knows some PHP, Python, Java, & Javascript, with a pinch of SQL</li>
-							<li>I ♥ automation</li>
-						</ul>
-					</section>
-					<section>
-						<h1>Drupal & community</h1>
-						<ul>
-							<li>Drupal user for 11, contributor for 9, and core developer for 8 years</li>
-							<li>Founded the Dutch Drupal foundation</li>
-							<li>Conference and meetup organizer</li>
-						</ul>
-					</section>
-					<section data-background-image="./images/mentors.jpg">
-						<h1>Mentor</h1>
-					</section>
-					<section>
-						<h1>Speaker</h1>
-					</section>
-					<section>
-						<h1>Druid</h1>
-					</section>
-					<!--Introduce Druid (Bart)-->
-					<section>
-						<h1>Druid</h1>
-						<ul>
-							<li>27 Druids</li>
-							<li>2 offices: Helsinki (2012) & Amsterdam (2015)</li>
-							<li>3 full-time remote employees</li>
-						</ul>
-					</section>
-					<!--Introduce Restel (Bart)-->
-					<section>
-						<h1>Restel</h1>
-						<ul>
-							<li>Biggest hospitality organization in Finland</li>
-							<li>Operates hotels and restaurants</li>
-							<li>Serves several websites and web applications</li>
-						</ul>
-					</section>
-					<!--Introduce this presentation (Bart or Jonna)-->
-					<section>
-						<h1>The Project</h1>
-					</section>
-				<!--The project's requirements (Jonna)-->
-					<section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
-						<style>.starry-sky .attribution:after { content: "© Hans @ Pixbay"; }</style>
-						<h1>A long time ago</h1>
-						<h4>in a galaxy far, far away..</h4>
-					</section>
-					<section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
-						<style>.starry-sky .attribution:after { content: "© Hans @ Pixbay"; }</style>
-						<h1>War of the worlds</h1>
-					</section>
-					<section data-background="./images/helsinki.jpg">
-						<h1>The battlefield</h1>
-						<h2>Helsinki, Finland</h2>
-					</section>
-					<section data-background="./images/gojira.jpg" data-state="attribution-active gojira">
-						<style>.gojira .attribution:after { content: "© Ishirô Honda´s: Gojira/Godzilla, King of the Monsters"; }</style>
-						<h1>The GoJIRA</h1>
-						<h2>Your job is to cage it..</h2>
-					</section>
-					<section data-background="./images/waterfall.jpg" data-state="attribution-active waterfall">
-						<style>.waterfall .attribution:after { content: "© Painting by Carl Svante Hallbeck"; }</style>
-						<h1>The River</h1>
-					</section>
-					<section data-background="./images/zen.jpg" data-state="attribution-active zen">
-						<style>.zen .attribution:after { content: "© Unsplash @ Pixbay"; }</style>
-						<h1>How do we get thru this?</h1>
-					</section>
-					<section data-background="./images/wonder-woman.jpg">
-					<h1>Get fit with Scrum!</h1>
-					</section>
-					<section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
-						<style>.starry-sky .attribution:after { content: "© Hans @ Pixbay"; }</style>
-						<h1>The last surprise</h1>
-					</section>
-					<section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
-						<style>.starry-sky .attribution:after { content: "© Hans @ Pixbay"; }</style>
-						<h1>That is how you do it. Mentally.</h1>
-					</section>
-					</section>
-				<!--Distributed team (Bart)-->
-					<section>
-					<section>
-						<h1>Where is everybody?</h1>
-					</section>
-					<section>
-						<h1>to distribute</h1>
-						<p><em>To scatter or spread.</em></p>
-					</section>
-					<section>
-						<h1>Why distribute teams?</h1>
-						<ul>
-							<li>Hometown</li>
-							<li>Sickness</li>
-							<li>Appointments outside 'office' hours</li>
-							<li>...</li>
-							<li>...</li>
-							<li>Laundry</li>
-						</ul>
-					</section>
-				</section>
-				<!--Technical challenges (Bart)-->
-				<section>
-					<h1>Grease monkeys hard at work</h1>
-				</section>
-				<!--Team building (Jonna)-->
-				<section>
-					<h1>Team night out</h1>
-					<img src="./images/druids.jpg" width="50%" height="50%">
-				</section>
-				<!--Deployment (Bart)-->
-				<section>
-					<h1>A special kind of sunrise</h1>
-				</section>
-				<!--Q&A (B & Jonnart)-->
-				<section>
-					<h1>Q&A</h1>
-				</section>
-			</div>
-		</div>
+        .reveal h1,
+        .reveal h2,
+        .reveal h3,
+        .reveal h4,
+        .reveal h5,
+        .reveal h6 {
+            text-transform: none;
+        }
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        .reveal p,
+        .reveal ul {
+            border-top: 3px dotted #999999;
+            padding-top: 1em;
+        }
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: false,
-				progress: false,
-				history: true,
-				center: true,
+        .reveal li {
+            list-style-type: circle;
+        }
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        .reveal a {
+            color: #ffb330;
+        }
+
+        /*Attributions*/
+        p.attribution {
+            bottom: 3%;
+            display: none;
+            font-size: 0.4em;
+            left: 3%;
+            padding: 1em;
+            position: absolute;
+            z-index: 999;
+        }
+
+        .attribution-active p.attribution {
+            background-color: rgba(23, 26, 32, 0.7);
+            border: 0;
+            display: block;
+        }
+    </style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <p class="attribution contrast"></p>
+    <div class="slides">
+        <section>
+            <h1>Restel.fi: built by humans, for humans</h1>
+            <p>Bart Feenstra & Jonna Tiainen</p>
+        </section>
+        <!--Introductions-->
+        <!--Introduce Jonna (Jonna)-->
+        <section data-background="./images/houston.jpg">
+            <h1>Jonna Tiainen</h1>
+            <img src="./images/jonna.jpg" width="50%">
+        </section>
+        <section data-background="./images/houston.jpg">
+            <h1>Holistic Agile Coach</h1>
+        </section>
+        <section data-background="./images/houston.jpg">
+            <h1>Scrum Master</h1>
+        </section>
+        <section data-background="./images/houston.jpg">
+            <h1>Code Newbie</h1>
+            <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section data-background="./images/houston.jpg">
+            <h1>Houstonian</h1>
+        </section>
+        <section data-background="./images/houston.jpg">
+            <h1>Houston Inc</h1> <img src="./images/hlogo.jpg" width="10%" height="10%">
+            <h4>We offer:</h4>
+            <ul>
+                <li>System deliveries</li>
+                <li>System integration</li>
+                <li>Agile Training</li>
+            </ul>
+        </section>
+        <section data-background="./images/drupal.jpg" data-state="attribution-active drupal">
+            <style>.drupal .attribution:after {
+                content: "© freephotocc (Lia Leslie) @ PixBay";
+            }</style>
+            <h1>Drupal & community</h1>
+            <ul>
+                <li>Drupal user a a year and a half</li>
+                <li>First time DrupalCon speaker</li>
+            </ul>
+        </section>
+
+        <!--Introduce Bart (Bart)-->
+        <section>
+            <h1>Bart Feenstra</h1>
+            <img src="./images/bart.jpg" width="50%">
+        </section>
+        <section data-background="./images/engineers.jpg" data-state="attribution-active engineers">
+            <style>.engineers .attribution:after {
+                content: "© Iain Middleton-Duff @ Flickr (CC BY-ND 2.0)";
+            }</style>
+            <h1>Engineer</h1>
+            <ul>
+                <li>Knows some PHP, Python, Java, & Javascript, with a pinch of SQL</li>
+                <li>I ♥ automation</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Drupal & community</h1>
+            <ul>
+                <li>Drupal user for 11, contributor for 9, and core developer for 8 years</li>
+                <li>Founded the Dutch Drupal foundation</li>
+                <li>Conference and meetup organizer</li>
+            </ul>
+        </section>
+        <section data-background-image="./images/mentors.jpg">
+            <h1>Mentor</h1>
+        </section>
+        <section>
+            <h1>Speaker</h1>
+        </section>
+        <section>
+            <h1>Druid</h1>
+        </section>
+        <!--Introduce Druid (Bart)-->
+        <section>
+            <h1>Druid</h1>
+            <ul>
+                <li>27 Druids</li>
+                <li>2 offices: Helsinki (2012) & Amsterdam (2015)</li>
+                <li>3 full-time remote employees</li>
+            </ul>
+        </section>
+        <!--Introduce Restel (Bart)-->
+        <section>
+            <h1>Restel</h1>
+            <ul>
+                <li>Biggest hospitality organization in Finland</li>
+                <li>Operates hotels and restaurants</li>
+                <li>Serves several websites and web applications</li>
+            </ul>
+        </section>
+        <!--Introduce this presentation (Bart or Jonna)-->
+        <section>
+            <h1>The Project</h1>
+        </section>
+        <!--The project's requirements (Jonna)-->
+        <section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
+            <style>.starry-sky .attribution:after {
+                content: "© Hans @ Pixbay";
+            }</style>
+            <h1>A long time ago</h1>
+            <h4>in a galaxy far, far away..</h4>
+        </section>
+        <section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
+            <style>.starry-sky .attribution:after {
+                content: "© Hans @ Pixbay";
+            }</style>
+            <h1>War of the worlds</h1>
+        </section>
+        <section data-background="./images/helsinki.jpg">
+            <h1>The battlefield</h1>
+            <h2>Helsinki, Finland</h2>
+        </section>
+        <section data-background="./images/gojira.jpg" data-state="attribution-active gojira">
+            <style>.gojira .attribution:after {
+                content: "© Ishirô Honda´s: Gojira/Godzilla, King of the Monsters";
+            }</style>
+            <h1>The GoJIRA</h1>
+            <h2>Your job is to cage it..</h2>
+        </section>
+        <section data-background="./images/waterfall.jpg" data-state="attribution-active waterfall">
+            <style>.waterfall .attribution:after {
+                content: "© Painting by Carl Svante Hallbeck";
+            }</style>
+            <h1>The River</h1>
+        </section>
+        <section data-background="./images/zen.jpg" data-state="attribution-active zen">
+            <style>.zen .attribution:after {
+                content: "© Unsplash @ Pixbay";
+            }</style>
+            <h1>How do we get thru this?</h1>
+        </section>
+        <section data-background="./images/wonder-woman.jpg">
+            <h1>Get fit with Scrum!</h1>
+        </section>
+        <section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
+            <style>.starry-sky .attribution:after {
+                content: "© Hans @ Pixbay";
+            }</style>
+            <h1>The last surprise</h1>
+        </section>
+        <section data-background="./images/starry-sky.jpg" data-state="attribution-active starry-sky">
+            <style>.starry-sky .attribution:after {
+                content: "© Hans @ Pixbay";
+            }</style>
+            <h1>That is how you do it. Mentally.</h1>
+        </section>
+        </section>
+        <!--Distributed team (Bart)-->
+        <section>
+            <section>
+                <h1>Where is everybody?</h1>
+            </section>
+            <section>
+                <h1>to distribute</h1>
+                <p><em>To scatter or spread.</em></p>
+            </section>
+            <section>
+                <h1>Why distribute teams?</h1>
+                <ul>
+                    <li>Hometown</li>
+                    <li>Sickness</li>
+                    <li>Appointments outside 'office' hours</li>
+                    <li>...</li>
+                    <li>...</li>
+                    <li>Laundry</li>
+                </ul>
+            </section>
+        </section>
+        <!--Technical challenges (Bart)-->
+        <section>
+            <h1>Grease monkeys hard at work</h1>
+        </section>
+        <!--Team building (Jonna)-->
+        <section>
+            <h1>Team night out</h1>
+            <img src="./images/druids.jpg" width="50%" height="50%">
+        </section>
+        <!--Deployment (Bart)-->
+        <section>
+            <h1>A special kind of sunrise</h1>
+        </section>
+        <!--Q&A (B & Jonnart)-->
+        <section>
+            <h1>Q&A</h1>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: false,
+        progress: false,
+        history: true,
+        center: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
